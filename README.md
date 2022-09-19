@@ -1,35 +1,31 @@
 # Controlling-Anki-robot-in-a-maze
 step1:
-
 (put this in a terminal)
+```sh
 cd catkin_ws/
 source devel/setup.bash
 cd --
-
+```
 
 step2:
-
-(put this in a new terminal)
+```sh
 roscore
-
+```
 step3:
-
-(put this in a new terminal)
+```sh
 roslaunch plywood_mazes maze_3_6x6.launch
-
+```
 
 step4:
-
-(put this in a new terminal)
+```sh
 roslaunch anki_description put_robot_in_world.launch 
-
+```
 
 step5:
 place robot in desired place
 
 step6:
-
-(put this in a new terminal)
+```sh
 rosrun advance_robotic_tutorial name.py 
-
+```
 
